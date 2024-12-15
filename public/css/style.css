@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+.messages {
+  width: 600px;
+  min-height: 500px;
+  border: solid;
+  border-color: #1c4f15;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #8ecf84;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.usersListDiv {
+  width: 300px;
+  height: 500px;
+  border: solid;
+  border-color: #1c4f15;
+  background-color: white;
+  border-radius: 15px;
+  margin-left: 10px;
+  padding: 18px;
+}
+
+.userInList {
+  margin: 2px;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  position: sticky;
+  bottom: 40px;
+  margin-bottom: 40px;
+}
+
+.input {
+  width: 475px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  border-radius: 7px;
+  padding: 5px;
+  border-color: #1c4f15;
+}
+
+.button {
+  width: 110px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  border-radius: 7px;
+  background-color: #1c4f15;
+  color: white;
+  border: none;
+}
+
+.messageFromServer {
+  width: 100%;
+  text-align: center;
+}
+
+.sendedMessage {
+  text-align: end;
+  padding-left: 20%;
+  padding-right: 3%;
+}
+
+.gotMessage {
+  padding-right: 20%;
+  padding-left: 3%;
+}
+
+.message {
+  width: 77%;
+  margin-top: 0;
+  margin-bottom: 2px;
+}
+
+.myUserName {
+  text-align: end;
+  padding-right: 3%;
+}
+
+.otherUserName {
+  padding-left: 3%;
+}
+
+.userName {
+  font-size: 16px;
+  margin-bottom: 2px;
+}
